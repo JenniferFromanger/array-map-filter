@@ -11,11 +11,11 @@ Sortie attendue:
 
  */
 
-function getPositiveNumbers(numbers) {
-  return numbers >= 0;
+function getPositiveNumbers(allNumbers) {
+  return allNumbers.filter((number) => number >= 0);
 }
-const allNumbers = [20, -4, 2, -86, 55, 87, -7];
-const positiveNumbers = allNumbers.filter(getPositiveNumbers);
+
+console.log(getPositiveNumbers([20, -4, 2, -86, 55, 87, -7]));
 
 
 // Si besoin, tu peux toujours visualiser le résultat avec console.log,
