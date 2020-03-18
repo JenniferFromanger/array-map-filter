@@ -12,7 +12,11 @@ Sortie attendue:
  */
 
 function getPositiveNumbers(numbers) {
+  return numbers >= 0;
 }
+const allNumbers = [20, -4, 2, -86, 55, 87, -7];
+const positiveNumbers = allNumbers.filter(getPositiveNumbers);
+
 
 // Si besoin, tu peux toujours visualiser le résultat avec console.log,
 // mais alors, il faut alors lancer l'exercice avec node filter/ex1
