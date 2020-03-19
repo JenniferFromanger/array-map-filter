@@ -15,7 +15,7 @@ function getPositiveNumbers(allNumbers) {
   return allNumbers.filter((number) => number >= 0);
 }
 
-console.log(getPositiveNumbers([20, -4, 2, -86, 55, 87, -7]));
+//console.log(getPositiveNumbers([20, -4, 2, -86, 55, 87, -7]));
 
 
 // Si besoin, tu peux toujours visualiser le résultat avec console.log,
